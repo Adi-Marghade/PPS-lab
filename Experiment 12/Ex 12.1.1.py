@@ -2,12 +2,12 @@ n = int(input())
 ph = {}
 
 for i in range(n):
-	cm = input().split()   # FIXED
+	cm = input().split()
 
 	if cm[0] == "ADD":
 		ph[cm[1]] = cm[2]
 
-	elif cm[0] == "REMOVE":   # FIXED
+	elif cm[0] == "REMOVE":
 		ph.pop(cm[1], None)
 
 	elif cm[0] == "DISPLAY":
