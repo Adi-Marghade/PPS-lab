@@ -1,0 +1,11 @@
+def generate_fibonacci_sequence(max_value):
+	if max_value <= 0:
+		return []
+	else:
+		seq = []
+		a = 0
+		b = 1
+		while a <= max_value:
+			seq.append(a)
+			a,b = b, a+b
+	return seq
