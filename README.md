@@ -26,5 +26,3 @@ What I Learned
 Object-Oriented Programming (Classes, Objects, Inheritance)
 Modular Programming
 Problem Solving & Logical Thinking
-
-Screenshots
